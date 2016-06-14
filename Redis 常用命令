@@ -1,3 +1,6 @@
+### 菜鸟教程###
+http://www.runoob.com/redis/redis-tutorial.html
+
 cmd:doskey  /history
 
 server:redis目录下运行 redis-server.exe redis.conf 。
