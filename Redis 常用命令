@@ -1,0 +1,55 @@
+cmd:doskey  /history
+
+server:redis目录下运行 redis-server.exe redis.conf 。
+  client: redis目录下运行  redis-cli.exe -h 127.0.0.1 -p 6379 。
+
+Redis支持五种数据类型：string（字符串），hash（哈希），list（列表），set（集合）及zset(sorted set：有序集合)。
+string:
+SET name "w3cschool.cc"
+get name;
+
+hash:  （hash特别适合用于存储对象。） 存在则追加
+HMSET user:1 username w3cschool.cc password w3cschool.cc points 200
+HGETALL user:1
+list:（列表：简单的字符串列表）
+lpush key  value
+rpush key  value
+lrange key010   -- 获取
+set:(无序集合) 集合是通过hash 表实现。 唯一
+sadd key value;
+smembers key;
+zset(sorted set：有序集合) 唯一 但是分数(score)却可以重复。如果存在则更新
+
+zadd key score value;
+zrangebyscore key 0 10; -- 获取前10 个;
+
+远程服务器上执行命令：
+redis-cli.exe -h host -p port -a password;
+redis-cli.exe -h 127.0.0.1 -p 6379 -a 'password';
+
+发布订阅：
+创建一个订阅者：SUBSCRIBE redisChat
+再开启一个redis-cli:执行 向redisChat 推送消息
+PUBLISH redisChat "Redis is a great caching technique"
+
+事务：
+multi: 开启事务
+set name value
+get name
+exec:执行事务
+
+恢复数据：
+save 在当前目录下
+bgsave 后台执行
+CONFIG GET dir
+
+
+
+
+
+
+
+
+
+
+
