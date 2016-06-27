@@ -4,10 +4,10 @@
  
 分页 skip  limit;  $inc  $push,的知识请参阅《mongodb权威指南》。
 
-##  mongodb 资料
- * 《mongodb权威指南》
- * mongoosejs ： http://mongoosejs.com/
- * stackoverflow ： http://stackoverflow.com/
- * Mongoose学习参考文档——基础篇 ： http://cnodejs.org/topic/504b4924e2b84515770103dd
- * Mongoose 基本功能使用 ： http://www.csser.com/board/4f4e92dbeb0defac5700011e
- * Mongoose - 让NodeJS更容易操作Mongodb数据库 ： http://www.csser.com/board/4f3f516e38a5ebc9780004fe
+## mongodb 资料
+  * 《mongodb权威指南》
+  * mongoosejs ： http://mongoosejs.com/
+  * stackoverflow ： http://stackoverflow.com/
+  * Mongoose学习参考文档——基础篇 ： http://cnodejs.org/topic/504b4924e2b84515770103dd
+  * Mongoose 基本功能使用 ： http://www.csser.com/board/4f4e92dbeb0defac5700011e
+  * Mongoose - 让NodeJS更容易操作Mongodb数据库 ： http://www.csser.com/board/4f3f516e38a5ebc9780004fe
