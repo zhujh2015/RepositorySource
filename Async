@@ -1,0 +1,17 @@
+Async 是一个流行的异步编程类库，提供了直接而强大的 JavaScript 异步功能。虽然是为 Node.js 设计的，但是它也可以直接在浏览器中使用。
+
+Async 提供了大约 20 个函数，包括常用的 map, reduce, filter, forEach 等等，也有常用的异步流程控制函数，包括 parallel, series, waterfall 等等。所有这些函数都是假设你遵循了 Node.js 的约定：在异步函数的最后提供一个回调函数作为参数。
+
+Async 包括三部分：
+
+流程控制：简化十种常见流程的处理
+集合处理：如何使用异步操作处理集合中的数据
+工具类：几个常用的工具类
+这里我们不会讲解 Async 的使用，读者可去以下链接学习 Async 的相关知识：
+
+Async ： https://github.com/caolan/async
+stackoverflow ： http://stackoverflow.com/
+Async详解之一：流程控制 ： http://freewind.me/blog/20120515/917.html
+Async详解之二：工具类 ： http://freewind.me/blog/20120517/931.html
+Async详解之三：集合操作 ： http://freewind.me/blog/20120518/932.html
+Nodejs异步流程控制Async ： http://blog.fens.me/nodejs-async/
