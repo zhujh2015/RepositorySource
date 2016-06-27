@@ -1,0 +1,5 @@
+
+ 启动命令：
+ mongod.exe --dbpath D:\Program\MongoDb\data\db
+ 
+分页 skip  limit;  $inc  $push,的知识请参阅《mongodb权威指南》。
