@@ -1,0 +1,28 @@
+-g :标示全局安装。
+默认node 含有npm 如果没有可以用如下:
+npm install npm -g;
+
+-- express 框架
+npm install -g express ;
+
+-- 实时编译
+npm install -g supervisor
+supervisor app.js     -- 开启实时编译
+node app.js -- 单次启动
+-- 调试语句： chrome 浏览器可用：使用node-inspector调试
+npm install -g node-inspector
+node-inspector --web-port=3000  默认端口号为8080 此为更改端口号
+
+先cmd 打开执行 node --debug app.js;
+再打开cmd 执行 node-inspector &
+打开调试地址：http://127.0.0.1:8080/debug?port=5858
+
+
+cmd 输入services.msc 查看服务列表。
+
+markdown: http://sspai.com/25137 简要介绍
+用来写作的轻量级「标记语言」
+
+
+-- momentjs 时间控件
+http://momentjs.com/docs/#/i18n/pseudo-locale/
