@@ -24,8 +24,10 @@
 
 ## Lua 学习资料
   * Lua脚本语言简明入门教程 http://www.jb51.net/article/55394.htm
+
 ## markdown 学习资料
   * markdown 认识与入门 http://sspai.com/25137
+ 
 ## 多线程并发 学习资料
   * 并发编程网： http://ifeve.com/java-concurrency-thread-directory/
 
