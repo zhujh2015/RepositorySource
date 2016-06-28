@@ -20,6 +20,8 @@
 
 ## Node.js 资源推荐
   * 国内Nodejs 2015总结 https://cnodejs.org/topic/5696e43e6272216e51bff67e
+## Redis 资源推荐
+  * Redis 设计与实现 http://redisbook.com/
 
 
 ## Lua 学习资料
