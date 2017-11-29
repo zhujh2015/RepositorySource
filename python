@@ -1,3 +1,16 @@
 图书推荐：
 统计学习方法：
 集体智慧编程：
+
+
+Anaconda：作为一个数据分析平台，包含了几乎所有常见的pyhton 数据分析库，并提供了简单易用的管理版本，使得使用者主要专注与数据分析和开发。
+python 数据分析工具
+NumPy：为Python提供了N维矩阵，是Python科学计算的基础，Python的数据分析工具基本都是以他为基础进行搭建。
+Scipy：Python科学及工程计算库。
+IPython：Python的交互式解释器，提供了强大的探索性数据分析功能。
+Pandas：最好用的Python数据处理及控制工具，提供了Series和DataFrame这两种在数据分析中最常用的数据结构。
+Matplotlib：Python最著名的绘图库，功能强大但是操作复杂，因此并不推荐初学者花太多时间在这个库上。
+scikit-learn：Python最著名的机器学习库，也是目前在数据科学领域应用最广、最流行的工具之一。
+StatsModels：Python的统计建模工具。
+Seaborn：以Matplotlib为基础的统计可视化工具，如有绘图方面的需求，建议初学者用这个库。
+Bokeh：交互式数据可视化工具，Python的D3.js
